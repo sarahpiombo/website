@@ -1,0 +1,17 @@
+---
+title: "Contact Info"
+author: "Sarah Piombo"
+date: null
+output: blogdown::html_page
+hidedate: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Email: piombo@usc.edu
+
+
+
+

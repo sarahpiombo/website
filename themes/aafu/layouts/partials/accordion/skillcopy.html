@@ -1,0 +1,15 @@
+<script>
+  let skillPanel = document.querySelector("#skill-panel")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+   <! -- let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  }); ->
+</script>
+{{ range.Site.Params.skill.list }}
+<code>{{ .skill }}</code>
+</div>
+</div> 
+{{ end }}

@@ -1,0 +1,15 @@
+{{ $params := .Params }} {{ range $name, $value := .Site.Taxonomies }}
+{{ if index $params $name }}
+<p class="metadata-value mb-1 taxa taxa-container-div list-{{- $name -}}">
+  {{ $name | humanize }}: {{ range index $params $name }}
+  <a
+    class="metadata-tags"
+    href="{{ $name | relURL }}/{{ . | urlize }}"
+    title="{{ $name }}"
+  >
+    {{- . -}}
+  </a>
+  {{ end }}
+</p>
+{{ end }}
+{{ end }}
