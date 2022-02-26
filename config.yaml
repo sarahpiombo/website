@@ -6,7 +6,7 @@ params:
     description: I'm a PhD student in the Department of Population and Public Health Sciences at Keck School of Medicine, University of Southern California. I'm a trainee of the Center for Applied Network Analysis (CANA) and the Center for Young Adult Cancer Survivorship (CYACSR).
     icon: fas fa-user
     title: About Me
-  author: Darshan Baral
+  author: Sarah E. Piombo
   copyright: short copyright message
   description: Sarah E. Piombo
   education:
@@ -46,7 +46,7 @@ params:
       \       <link rel=\"manifest\" href=\"site.webmanifest\">\n        <link rel=\"mask-icon\"
       href=\"safari-pinned-tab.svg\" color=\"#252627\">\n        <link rel=\"shortcut
       icon\" href=\"favicon.ico\">\n        "
-    use: yes
+    use: no
   #hobby:
    # icon: fas fa-gamepad
     #list:
@@ -77,30 +77,37 @@ params:
     title: Projects
   publication:
     format:
-      - date
       - authors
+      - date
       - title
       - journal
     icon: fas fa-book
     list:
-      - authors: Piombo SE, Miller KA, Alderete K., Egan A, Golingay S, Valente TW
-        date: '2020'
-        journal: Journal of Cancer Education.
-        title: Evaluation of a Nurse-Delivered Pre-Chemotherapy Educational Intervention to Increase Knowledge and Reduce Anxiety Among Ethnically Diverse Patients.
+      - authors: Piombo SE, Huh J, Valente TW
+        date: '2022'
+        journal: Childhood Obesity
+        title: 'Adolescent Body Mass Index and Exposure to Peers with Overweight and Obesity: A Structural Equation Model Approach to Longitudinal Network Data'
         type: Journal Articles
-        url: 'https://doi.org/10.1007/s13187-020-01695-4'
-      - authors: Miller KA, Piombo SE, Cho J, Higgins S, Wysong A, Sussman S, Cockburn MG, Leventhal AM
-        date: '2018'
-        journal: Journal of Investigative Dermatology.
-        title: Prevalence of tanning addiction and associations with behavioral health conditions among ethnically and racially diverse adolescents.
-        type: Journal Articles
-        url: '#'
+        url: 'https://pubmed.ncbi.nlm.nih.gov/35108122/'
       - authors: Miller KA, Huh J, Piombo SE, Richardson JL, Harris SC, Peng DH, Cockburn MG
         date: '2021'
         journal: Preventive Medicine
         title: 'Sun protection changes among diverse elementary schoolchildren participating in a sun safety intervention: a latent transition analysis of a randomized controlled trial.'
         type: Journal Articles
-        url: '#'
+        url: 'https://pubmed.ncbi.nlm.nih.gov/33971211/'
+      - authors: Piombo SE, Miller KA, Alderete K., Egan A, Golingay S, Valente TW
+        date: '2020'
+        journal: Journal of Cancer Education.
+        title: Evaluation of a Nurse-Delivered Pre-Chemotherapy Educational Intervention to Increase Knowledge and Reduce Anxiety Among Ethnically Diverse Patients.
+        type: Journal Articles
+        url: 'https://pubmed.ncbi.nlm.nih.gov/32002822/'
+      - authors: Miller KA, Piombo SE, Cho J, Higgins S, Wysong A, Sussman S, Cockburn MG, Leventhal AM
+        date: '2018'
+        journal: Journal of Investigative Dermatology.
+        title: Prevalence of tanning addiction and associations with behavioral health conditions among ethnically and racially diverse adolescents.
+        type: Journal Articles
+        url: 'https://pubmed.ncbi.nlm.nih.gov/29481903/'
+      
      # - authors: F Last, F Second, P secondary
       #  date: '2018'
        # journal: Journal of Field 52 (16), 9033-9044
