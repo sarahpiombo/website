@@ -3,7 +3,7 @@ languageCode: en-us
 theme: aafu
 params:
   aboutme:
-    description: I'm a PhD student in the Department of Population and Public Health Sciences at Keck School of Medicine, University of Southern California. I'm a trainee of the Center for Applied Network Analysis (CANA) and the Center for Young Adult Cancer Survivorship (CYACSR).
+    description: I'm a PhD candidate in the Department of Population and Public Health Sciences at Keck School of Medicine, University of Southern California. I'm a trainee of the Center for Applied Network Analysis (CANA) and the Center for Young Adult Cancer Survivorship (CYACSR).
     icon: fas fa-user
     title: About Me
   author: Sarah E. Piombo
@@ -58,7 +58,7 @@ params:
     location: Los Angeles, CA
     name: Sarah E. Piombo, MPH
     photo: sarah.JPG
-    tagline: PhD student in Health Behavior Research
+    tagline: PhD Candidate in Health Behavior Research
   project:
     icon: fas fa-project-diagram
     list:
@@ -83,6 +83,18 @@ params:
       - journal
     icon: fas fa-book
     list:
+    - authors: Piombo SE, Miller KA, Freyer DR,  Milam J, Ritt-Olson A, In GK, Valente TW 
+        date: '2022'
+        journal: Communications Medicine
+        title: 'Social Networks of Oncology Clinicians as a Means for Increasing Survivorship Clinic Referral'
+        type: Journal Articles
+        url: 'https://rdcu.be/c0Olt'
+    - authors: Piombo SE*, Stal J,* Kagramanov D, Kysh L, Freyer D, Turner B, Miller KA
+        date: '2022'
+        journal:BMJ Open 
+        title: 'Integrating primary care and childhood cancer survivorship care: A scoping review protocol'
+        type: Journal Articles
+        url: 'https://bmjopen.bmj.com/content/12/5/e059050'
       - authors: Piombo SE, Huh J, Valente TW
         date: '2022'
         journal: Childhood Obesity
