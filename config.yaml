@@ -83,18 +83,18 @@ params:
       - journal
     icon: fas fa-book
     list:
-    - authors: Piombo SE, Miller KA, Freyer DR,  Milam J, Ritt-Olson A, In GK, Valente TW 
+      - authors: Piombo SE, Miller KA, Freyer DR,  Milam J, Ritt-Olson A, In GK, Valente TW.  
         date: '2022'
         journal: Communications Medicine
         title: 'Social Networks of Oncology Clinicians as a Means for Increasing Survivorship Clinic Referral'
         type: Journal Articles
         url: 'https://rdcu.be/c0Olt'
-    - authors: Piombo SE*, Stal J,* Kagramanov D, Kysh L, Freyer D, Turner B, Miller KA
+      - authors: Piombo SE,* Stal J,* Kagramanov D, Kysh L, Freyer D, Turner B, Miller KA
         date: '2022'
-        journal:BMJ Open 
+        journal: BMJ Open
         title: 'Integrating primary care and childhood cancer survivorship care: A scoping review protocol'
         type: Journal Articles
-        url: 'https://bmjopen.bmj.com/content/12/5/e059050'
+        url: 'https://bmjopen.bmj.com/content/12/5/e059050'        
       - authors: Piombo SE, Huh J, Valente TW
         date: '2022'
         journal: Childhood Obesity
