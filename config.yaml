@@ -3,7 +3,7 @@ languageCode: en-us
 theme: aafu
 params:
   aboutme:
-    description: I'm a PhD candidate in the Department of Population and Public Health Sciences at Keck School of Medicine, University of Southern California. I'm a trainee of the Center for Applied Network Analysis (CANA) and the Center for Young Adult Cancer Survivorship (CYACSR).
+    description: I'm a PhD candidate in the Department of Population and Public Health Sciences at Keck School of Medicine, University of Southern California. My dissertation research is funded by an NIH/NIDA F31 predoctoral fellowship. I'm a trainee of the Center for Applied Network Analysis (CANA) and the Center for Young Adult Cancer Survivorship (CYACSR).
     icon: fas fa-user
     title: About Me
   author: Sarah E. Piombo
@@ -12,14 +12,14 @@ params:
   education:
     icon: fas fa-graduation-cap
     list:
-      - college: University of Southern California
+      - college: Keck School of Medicine, University of Southern California
         dates: 2019 - Present
         degree: Ph.D. in Health Behavior Research
         #thesis_title: 'Department of Preventive Medicine'
         #thesis_url: '#'
       - college: University of Southern California
         dates: 2016 - 2018
-        degree: MPH in Biostatistics & Epidemiology
+        degree: MPH, emphasis in Biostatistics & Epidemiology
         #thesis_title: 'Effect of humans on other humans: a study of human behavior.'
         thesis_url: '#'
       - college: Santa Clara University
@@ -31,13 +31,14 @@ params:
     list:
       - company: Social Network Analysis
         #dates: 2019 - *Present*
-        details: Using social network analysis to explore personal and network factors that impact health behaviors, with a research focus on electronic nicotine delivery systems among youth.  
+        details: I believe that many public health issues can benefit from taking a network level approach to gain insight on the social dynamics that impact health behaviors and outcomes.I use social network analysis to understand the individual and structural factors that give rise to public health issues. I use network analytic techniques to determine pathways for interventions with the objective of optimizing intervention outcomes by leveraging the preexisting network structure. 
         #position: Job Title
-      - company: Young Adult Cancer Survivorship Research
+     # - company: I'm well versed in social network methodology and have experience analyzing both sociometric and egocentric network data. I regularly use exponential random graph models (ERGMs), stochastic actor-oriented models (SAOM/RSIENA), and multilevel modeling techniques.
         #dates: 
        # position: youngadultsurvivors.org
-        details: Using program evaluation and implementation science to inform interventions that improve quality of life and health outcomes among AYA cancer patients and survivors.
+      #  details: 
        # url: '#'
+      - company: I've analyzed network influence on a variety of health behaviors and outcomes including cigarette use, e-cigarettes/vaping, marijuana use, BMI, physical activity, social support among cancer patients, physician referral patterns, and women's health. In addition to my academic work, I have applied these methods to other settings including team dynamics in corporate organizations and inter-organization collaboration networks.  
     title: Research
   favicons:
     metas: "        <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"apple-touch-icon.png\">\n
@@ -83,7 +84,19 @@ params:
       - journal
     icon: fas fa-book
     list:
-      - authors: Piombo SE, Miller KA, Freyer DR,  Milam J, Ritt-Olson A, In GK, Valente TW.  
+      - authors: Valente TW, Piombo SE, Edwards KM, Waterman EA, & Banyard VL
+        date: '2023'
+        journal: Substance Use and Misuse
+        title: 'Influences on Adolescent E-cigarette Use'
+        type: Journal Articles
+        url: ''
+      - authors: Piombo SE,* Stal J,* Kysh L, Kagramanov D, Freyer DR, Turner BJ, Hempel S, & Miller KA
+        date: '2022'
+        journal: J. of Cancer Survivorship
+        title: 'The integration of primary care and childhood cancer survivorship care: A scoping review.' 
+        type: Journal Articles
+        url: 'https://pubmed.ncbi.nlm.nih.gov/36534343/'
+      - authors: Piombo SE, Miller KA, Freyer DR,  Milam J, Ritt-Olson A, In GK, Valente TW  
         date: '2022'
         journal: Communications Medicine
         title: 'Social Networks of Oncology Clinicians as a Means for Increasing Survivorship Clinic Referral'
@@ -142,7 +155,7 @@ params:
     #- item: hobby
   skill:
     icon: fas fa-cogs
-    description: R, Stata, Mplus, SAS
+    description: I'm well versed in social network methodology and have experience analyzing both sociometric and egocentric network data. I regularly use exponential random graph models (ERGMs), stochastic actor-oriented models (SAOM/RSIENA), and multilevel modeling techniques. 
     title: Skills
   social:
     list:
@@ -155,9 +168,9 @@ params:
     #  - icon: fab fa-github
      #   title: GitHub
       #  url: '#'
-    #  - icon: fab fa-twitter
-     #   title: Twitter
-      #  url: '#'
+      - icon: fab fa-twitter
+        title: Twitter
+        url: 'https://twitter.com/sarah_piombo'
       - icon: fab fa-orcid
         title: Orcid
         url: 'https://orcid.org/0000-0001-5118-7897'
